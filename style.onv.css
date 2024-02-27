@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import './root.css';
+@import './button.css';
+@import './container.css';
+@import './table.css';
+@import './card.css';
+@import './modal.css';
+
+body {
+    background-color: #f1f5f9;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+/* 
+
+1. box-shadow 
+2. background color 
+
+*/
+
+/* box shadow */
+.onv-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* background color */
+.onv-bg-primary {
+    background-color: var(--onv-primary);
+    color: #fff;
+}
+
+.onv-bg-secondary {
+    background-color: var(--onv-secondary);
+    color: #000;
+}
+
+.onv-bg-success {
+    background-color: var(--onv-success);
+    color: #fff;
+}
+
+.onv-bg-warning {
+    background-color: var(--onv-warning);
+    color: #000;
+}
+
+.onv-bg-danger {
+    background-color: var(--onv-danger);
+    color: #fff;
+}
+
+.onv-bg-dark {
+    background-color: var(--onv-dark);
+    color: #fff;
+}
+
+.onv-bg-default {
+    background-color: var(--onv-default);
+    color: #000;
+}
